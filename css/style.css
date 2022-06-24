@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald',
+    sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white-light: #F8F8F8;
+    --white-dark: #C8C8C8;
+    --gray: #989898;
+    --black-light: #686868;
+    --black-dark: #383838;
+}
+
+.bg-white-light {
+    background-color: var(--white-light) !important;
+}
+
+.bg-black-dark {
+    background-color: var(--black-dark) !important;
+}
+
+.text-white-light {
+    color: var(--white-light) !important;
+}
+
+.text-black-light {
+    color: var(--black-light) !important;
+}
+
+.text-black-dark {
+    color: var(--black-dark) !important;
+}
+
+.active {
+    color: var(--black-dark) !important;
+    background-color: var(--white-light) !important;
+    border: 0;
+}
+
+section {
+    padding-top: 100px;
+    height: 100vh;
+}
+
+/* Navigasi */
+nav {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+nav .nav-link {
+    padding: 20px 20px !important;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+nav .nav-item:hover {
+    color: var(--white-dark) !important;
+    background-color: var(--black-light) !important;
+    border: 0;
+}
