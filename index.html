@@ -15,12 +15,12 @@
     </head>
 
     <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-
-        <nav class="navbar navbar-expand-lg bg-black-dark fixed-top">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-black-dark fixed-top">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler second-button" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarNav" aria-controls="nav#navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
@@ -39,6 +39,9 @@
         </nav>
         <!-- ========== End Navigasi ========== -->
         
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js">
+        </script>
+        <script src="js/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
             integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
         </script>
@@ -58,10 +61,6 @@
         <script>
             AOS.init();
         </script>
-
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js">
-        </script>
-
         <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
         <script>
             $('.js-tilt').tilt({
