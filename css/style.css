@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/* Global */
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,58 @@ h1, h2, h3, h4, h5, h6, p {
     --black-dark: #383838;
 }
 
+/* Breakpoint */
+@media (min-width: 576px) {
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home h4,
+    .home h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home h1 {
+        font-size: 45px;
+    }
+
+    .home h4,
+    .home h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home h1 {
+        font-size: 50px;
+    }
+
+    .home h4 {
+        font-size: 30px;
+    }
+
+    .home h2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home h1 {
+        font-size: 55px;
+    }
+
+    .home h4 {
+        font-size: 30px;
+    }
+
+    .home h2 {
+        font-size: 40px;
+    }
+}
+
+/* OOCSS */
 .bg-white-light {
     background-color: var(--white-light) !important;
 }
@@ -157,7 +210,6 @@ nav .nav-item:hover {
 }
 
 .home h1 {
-    font-size: 55px;
     font-weight: 700;
     overflow: hidden;
     border-right: .15em solid orange;
@@ -172,11 +224,11 @@ nav .nav-item:hover {
 
 @keyframes typing {
     from {
-        width: 0
+        width: 0;
     }
 
     to {
-        width: 100%
+        width: 100%;
     }
 }
 
@@ -184,7 +236,7 @@ nav .nav-item:hover {
 
     from,
     to {
-        border-color: transparent
+        border-color: transparent;
     }
 
     50% {
@@ -194,13 +246,11 @@ nav .nav-item:hover {
 
 .home h2 {
     font-weight: 600;
-    font-size: 40px;
     letter-spacing: 2px;
 }
 
 .home h4 {
     letter-spacing: 2px;
-    font-size: 30px;
     font-weight: 600;
 }
 
@@ -219,7 +269,7 @@ nav .nav-item:hover {
     margin-top: 160px;
     opacity: 0.5;
     transition: ease 1s;
-    animation: bouncey 1.6s linear infinite;
+    animation: bounceY 1.6s linear infinite;
 }
 
 .arrow ul {
@@ -252,7 +302,7 @@ nav .nav-item:hover {
     opacity: 1;
 }
 
-@keyframes bouncey {
+@keyframes bounceY {
 
     0%,
     20%,
