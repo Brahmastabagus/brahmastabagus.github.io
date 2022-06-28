@@ -46,12 +46,17 @@ p {
         font-size: 45px;
     }
 
-    .about h4 {
+    .about h4,
+    .skill h4 {
         font-size: 25px;
     }
 
     .about p {
         font-size: 16px;
+    }
+
+    .skill h1 {
+        font-size: 40px;
     }
 }
 
@@ -73,12 +78,17 @@ p {
         font-size: 45px;
     }
 
-    .about h4 {
+    .about h4,
+    .skill h4 {
         font-size: 28px;
     }
 
     .about p {
         font-size: 17px;
+    }
+
+    .skill h1 {
+        font-size: 40px;
     }
 }
 
@@ -103,12 +113,17 @@ p {
         font-size: 50px;
     }
 
-    .about h4 {
+    .about h4,
+    .skill h4 {
         font-size: 28px;
     }
 
     .about p {
         font-size: 18px;
+    }
+
+    .skill h1 {
+        font-size: 45px;
     }
 }
 
@@ -133,12 +148,17 @@ p {
         font-size: 50px;
     }
 
-    .about h4 {
+    .about h4,
+    .skill h4 {
         font-size: 28px;
     }
 
     .about p {
         font-size: 18px;
+    }
+
+    .skill h1 {
+        font-size: 45px;
     }
 }
 
@@ -400,7 +420,7 @@ nav .nav-item:hover {
 /* About */
 .about .card {
     padding: 40px 40px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .about h4 {
@@ -426,13 +446,12 @@ nav .nav-item:hover {
 
 .skill .card {
     padding: 40px 40px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .skill h4 {
     font-weight: 500;
     letter-spacing: 2px;
-    font-size: 28px;
 }
 
 .skill h1 {
@@ -440,7 +459,6 @@ nav .nav-item:hover {
     margin-bottom: 20px;
     font-weight: 700;
     letter-spacing: 2px;
-    font-size: 45px;
 }
 
 .skill .skills {
@@ -488,5 +506,5 @@ nav .nav-item:hover {
 }
 
 .skill span.responsive {
-    width: 160px;
+    width: 165px;
 }
