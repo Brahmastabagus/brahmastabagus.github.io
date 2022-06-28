@@ -5,10 +5,16 @@
     margin: 0;
     padding: 0;
     font-family: 'Oswald',
-    sans-serif !important;
+        sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
     padding: 0;
 }
@@ -31,6 +37,22 @@ h1, h2, h3, h4, h5, h6, p {
     .home h2 {
         font-size: 30px;
     }
+
+    .about .row {
+        margin-top: 40px;
+    }
+
+    .about h1 {
+        font-size: 45px;
+    }
+
+    .about h4 {
+        font-size: 25px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -41,6 +63,22 @@ h1, h2, h3, h4, h5, h6, p {
     .home h4,
     .home h2 {
         font-size: 30px;
+    }
+
+    .about .row {
+        margin-top: 50px;
+    }
+
+    .about h1 {
+        font-size: 45px;
+    }
+
+    .about h4 {
+        font-size: 28px;
+    }
+
+    .about p {
+        font-size: 17px;
     }
 }
 
@@ -56,6 +94,22 @@ h1, h2, h3, h4, h5, h6, p {
     .home h2 {
         font-size: 40px;
     }
+
+    .about .row {
+        margin-top: 50px;
+    }
+
+    .about h1 {
+        font-size: 50px;
+    }
+
+    .about h4 {
+        font-size: 28px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -69,6 +123,22 @@ h1, h2, h3, h4, h5, h6, p {
 
     .home h2 {
         font-size: 40px;
+    }
+
+    .about .row {
+        margin-top: 60px;
+    }
+
+    .about h1 {
+        font-size: 50px;
+    }
+
+    .about h4 {
+        font-size: 28px;
+    }
+
+    .about p {
+        font-size: 18px;
     }
 }
 
@@ -135,6 +205,7 @@ nav .nav-item:hover {
     background-color: var(--black-light) !important;
     border: 0;
 }
+
 .animated-icon2 {
     width: 30px;
     height: 15px;
@@ -208,6 +279,7 @@ nav .nav-item:hover {
     width: 0%;
     left: 50%;
 }
+
 /* Home */
 .home {
     padding-top: 250px;
@@ -326,17 +398,12 @@ nav .nav-item:hover {
 }
 
 /* About */
-.about .row {
-    margin-top: 60px;
-}
-
 .about .card {
-    padding: 50px 50px;
+    padding: 40px 40px;
     border-radius: 50px;
 }
 
 .about h4 {
-    font-size: 28px;
     font-weight: 500;
     letter-spacing: 2px;
 }
@@ -345,11 +412,9 @@ nav .nav-item:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 700;
-    font-size: 50px;
     letter-spacing: 2px;
 }
 
 .about p {
-    font-size: 18px;
     letter-spacing: 1px;
 }
