@@ -38,9 +38,9 @@ p {
         font-size: 30px;
     }
 
-    .about .row {
+    /* .about .row {
         margin-top: 40px;
-    }
+    } */
 
     .about h1 {
         font-size: 45px;
@@ -52,7 +52,7 @@ p {
     }
 
     .about p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .skill h1 {
@@ -70,9 +70,9 @@ p {
         font-size: 30px;
     }
 
-    .about .row {
+    /* .about .row {
         margin-top: 50px;
-    }
+    } */
 
     .about h1 {
         font-size: 45px;
@@ -84,7 +84,7 @@ p {
     }
 
     .about p {
-        font-size: 17px;
+        font-size: 19px;
     }
 
     .skill h1 {
@@ -105,9 +105,9 @@ p {
         font-size: 40px;
     }
 
-    .about .row {
+    /* .about .row {
         margin-top: 50px;
-    }
+    } */
 
     .about h1 {
         font-size: 50px;
@@ -119,7 +119,7 @@ p {
     }
 
     .about p {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .skill h1 {
@@ -140,9 +140,9 @@ p {
         font-size: 40px;
     }
 
-    .about .row {
+    /* .about .row {
         margin-top: 60px;
-    }
+    } */
 
     .about h1 {
         font-size: 50px;
@@ -154,7 +154,7 @@ p {
     }
 
     .about p {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .skill h1 {
@@ -199,7 +199,7 @@ p {
 
 section {
     padding-top: 70px;
-    height: 100vh;
+    height: 100vh !important;
     overflow: hidden;
 }
 
@@ -303,6 +303,8 @@ nav .nav-item:hover {
 /* Home */
 .home {
     padding-top: 250px;
+    /* height: 100vh !important;
+    overflow: hidden; */
 }
 
 .home h1 {
@@ -418,9 +420,17 @@ nav .nav-item:hover {
 }
 
 /* About */
-.about .card {
-    padding: 40px 40px;
-    border-radius: 30px;
+.about .container, .about .row {
+    width: 100%;
+    height: 100%;
+}
+
+.about .gambar {
+    margin-top: 25px;
+}
+
+.about .text {
+    margin-top: 10vh;
 }
 
 .about h4 {
@@ -437,74 +447,49 @@ nav .nav-item:hover {
 
 .about p {
     letter-spacing: 1px;
+    text-align: justify;
 }
 
-/* Skill */
-.skill .row {
-    margin-top: 90px;
+.about .man {
+    width: 100%;
+    height: 80%;
 }
 
-.skill .card {
-    padding: 40px 40px;
-    border-radius: 30px;
-}
-
-.skill h4 {
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-.skill h1 {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
-.skill .skills {
-    width: 400px;
-    flex-wrap: wrap;
-}
-
-.skill span {
+.about span {
     letter-spacing: 1px;
     width: 85px;
     border-radius: 5px;
     font-size: 20px;
 }
 
-.skill span.html {
+.about span.html {
     background-color: #e34f26;
     color: #fff;
 }
 
-.skill span.css {
+.about span.css {
     background-color: #2965f1;
     color: #fff;
 }
 
-.skill span.javascript {
+.about span.javascript {
     width: 105px !important;
     background-color: #f0db4f;
     color: #323330;
 }
 
-.skill span.java {
+.about span.java {
     background-color: #5382a1;
     color: #fff;
 }
 
-.skill span.bootstrap {
+.about span.bootstrap {
     width: 105px !important;
     background-color: #602C50;
     color: #fff;
 }
 
-.skill span.git {
+.about span.git {
     background-color: #f34f29;
     color: #fff;
-}
-
-.skill span.responsive {
-    width: 165px;
 }
