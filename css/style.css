@@ -8,6 +8,10 @@
         sans-serif !important;
 }
 
+body {
+    background-color: var(--white-light);
+}
+
 h1,
 h2,
 h3,
@@ -70,10 +74,6 @@ p {
         font-size: 30px;
     }
 
-    /* .about .row {
-        margin-top: 50px;
-    } */
-
     .about h1 {
         font-size: 45px;
     }
@@ -83,7 +83,8 @@ p {
         font-size: 28px;
     }
 
-    .about p {
+    .about p,
+    .portfolio p {
         font-size: 19px;
     }
 
@@ -105,10 +106,6 @@ p {
         font-size: 40px;
     }
 
-    /* .about .row {
-        margin-top: 50px;
-    } */
-
     .about h1 {
         font-size: 50px;
     }
@@ -118,7 +115,8 @@ p {
         font-size: 28px;
     }
 
-    .about p {
+    .about p,
+    .portfolio p {
         font-size: 20px;
     }
 
@@ -140,10 +138,6 @@ p {
         font-size: 40px;
     }
 
-    /* .about .row {
-        margin-top: 60px;
-    } */
-
     .about h1 {
         font-size: 50px;
     }
@@ -153,7 +147,8 @@ p {
         font-size: 28px;
     }
 
-    .about p {
+    .about p,
+    .portfolio p {
         font-size: 20px;
     }
 
@@ -197,7 +192,7 @@ p {
     border: 0;
 }
 
-section {
+.home, .about {
     padding-top: 70px;
     height: 100vh !important;
     overflow: hidden;
@@ -303,8 +298,6 @@ nav .nav-item:hover {
 /* Home */
 .home {
     padding-top: 250px;
-    /* height: 100vh !important;
-    overflow: hidden; */
 }
 
 .home h1 {
@@ -455,41 +448,102 @@ nav .nav-item:hover {
     height: 80%;
 }
 
-.about span {
+.skills span {
     letter-spacing: 1px;
     width: 85px;
     border-radius: 5px;
     font-size: 20px;
 }
 
-.about span.html {
+span.html {
     background-color: #e34f26;
     color: #fff;
 }
 
-.about span.css {
+span.css {
     background-color: #2965f1;
     color: #fff;
 }
 
-.about span.javascript {
+span.javascript {
     width: 105px !important;
     background-color: #f0db4f;
     color: #323330;
 }
 
-.about span.java {
+span.java {
     background-color: #5382a1;
     color: #fff;
 }
 
-.about span.bootstrap {
+span.bootstrap {
     width: 105px !important;
     background-color: #602C50;
     color: #fff;
 }
 
-.about span.git {
+span.git {
     background-color: #f34f29;
     color: #fff;
+}
+
+span.php {
+    background-color: #8993be;
+    color: #232531;
+}
+
+/* Portfolio */
+.portfolio {
+    padding-top: 40px;
+}
+
+.portfolio .title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+}
+
+.portfolio .row {
+    margin-bottom: 100px;
+}
+
+.portfolio .head {
+    letter-spacing: 2px;
+
+}
+
+.portfolio .head span {
+    font-size: 14px;
+    background-color: var(--black-light);
+    color: var(--white-light);
+    padding: 5px 20px;
+    border-radius: 10px;
+    letter-spacing: .1rem;
+}
+
+.portfolio p {
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.portfolio .btn {
+    font-size: 16px;
+    padding: 10px 40px;
+}
+
+.portfolio .visit:hover {
+    background-color: var(--gray) !important;
+    color: var(--white-light) !important;
+}
+
+.portfolio .open {
+    background-color: var(--white-light) !important;
+    border: 1px solid var(--gray) !important;
+}
+
+.portfolio .open:hover {
+    background-color: var(--gray) !important;
+    /* border: none !important; */
+    color: var(--white-light) !important;
 }
