@@ -34,17 +34,13 @@ p {
 /* Breakpoint */
 @media (min-width: 576px) {
     .home h1 {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .home h4,
     .home h2 {
         font-size: 30px;
     }
-
-    /* .about .row {
-        margin-top: 40px;
-    } */
 
     .about h1 {
         font-size: 45px;
@@ -56,11 +52,19 @@ p {
     }
 
     .about p {
-        font-size: 18px;
+        font-size: 20px;
+    }
+
+    .portfolio p {
+        font-size: 25px;
     }
 
     .skill h1 {
         font-size: 40px;
+    }
+
+    .skills span {
+        font-size: 18px !important;
     }
 }
 
@@ -85,11 +89,15 @@ p {
 
     .about p,
     .portfolio p {
-        font-size: 19px;
+        font-size: 25px;
     }
 
     .skill h1 {
         font-size: 40px;
+    }
+
+    .skills span {
+        font-size: 20px !important;
     }
 }
 
@@ -120,8 +128,16 @@ p {
         font-size: 20px;
     }
 
+    .about .man {
+        height: 100%;
+    }
+
     .skill h1 {
         font-size: 45px;
+    }
+
+    .skills span {
+        font-size: 20px !important;
     }
 }
 
@@ -152,8 +168,16 @@ p {
         font-size: 20px;
     }
 
+    .about .man {
+        height: 80%;
+    }
+
     .skill h1 {
         font-size: 45px;
+    }
+
+    .skills span {
+        font-size: 20px !important;
     }
 }
 
@@ -192,7 +216,7 @@ p {
     border: 0;
 }
 
-.home, .about {
+.home {
     padding-top: 70px;
     height: 100vh !important;
     overflow: hidden;
@@ -207,6 +231,9 @@ nav {
 
 nav .nav-link {
     padding: 20px 20px !important;
+    width: 130px;
+    margin: 0 15px;
+    text-align: center;
     font-weight: 600;
     letter-spacing: .1rem;
 }
@@ -302,13 +329,13 @@ nav .nav-item:hover {
 
 .home h1 {
     font-weight: 700;
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    letter-spacing: .10em;
-    animation:
+    /* overflow: hidden; */
+    /* border-right: .15em solid orange; */
+    /* white-space: nowrap; */
+    /* letter-spacing: .10em; */
+    /* animation:
         typing 3.5s steps(40, end),
-        blink-caret .75s step-end infinite;
+        blink-caret .75s step-end infinite; */
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -413,6 +440,10 @@ nav .nav-item:hover {
 }
 
 /* About */
+.about {
+    overflow: visible !important;
+    padding-top: 20px !important;
+}
 .about .container, .about .row {
     width: 100%;
     height: 100%;
@@ -445,14 +476,12 @@ nav .nav-item:hover {
 
 .about .man {
     width: 100%;
-    height: 80%;
 }
 
 .skills span {
     letter-spacing: 1px;
     width: 85px;
     border-radius: 5px;
-    font-size: 20px;
 }
 
 span.html {
@@ -546,4 +575,16 @@ span.php {
     background-color: var(--gray) !important;
     /* border: none !important; */
     color: var(--white-light) !important;
+}
+
+/* Sertifikat */
+.sertifikat {
+    padding: 40px 0 100px 0;
+}
+
+.sertifikat .title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
 }
