@@ -588,3 +588,18 @@ span.php {
     margin-bottom: 100px;
     letter-spacing: 2px;
 }
+
+/* Footer */
+footer .container-fluid {
+    padding: 0px !important;
+    font-size: 18px;
+}
+
+footer :where(span, h6, p) {
+    letter-spacing: .5px;
+}
+
+footer svg:not(.wave) {
+    width: 16px;
+    height: 18px;
+}
