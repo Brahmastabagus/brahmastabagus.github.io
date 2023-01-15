@@ -443,9 +443,27 @@ span.css {
 }
 
 span.javascript {
-    width: 105px !important;
+    width: 120px !important;
     background-color: #f0db4f;
     color: #323330;
+}
+
+span.typescript {
+    width: 120px !important;
+    background-color: #007acc;
+    color: #fff;
+}
+
+span.reactjs {
+    /* width: 120px !important; */
+    background-color: #61DBFB;
+    color: #fff;
+}
+
+span.nextjs {
+    width: 120px !important;
+    background-color: #000;
+    color: #fff;
 }
 
 span.java {
@@ -454,8 +472,34 @@ span.java {
 }
 
 span.bootstrap {
-    width: 105px !important;
+    width: 120px !important;
     background-color: #602C50;
+    color: #fff;
+}
+
+span.tailwindcss {
+    width: 120px !important;
+    background-color: #36B7F0;
+    color: #fff;
+}
+
+span.daisyui {
+    background-color: #6419e6;
+    color: #fff;
+}
+
+span.mantine {
+    background-color: #1c7ed6;
+    color: #fff;
+}
+
+span.axios {
+    background-color: #671DDF;
+    color: #fff;
+}
+
+span.redux {
+    background-color: #764abc;
     color: #fff;
 }
 
