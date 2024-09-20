@@ -573,6 +573,7 @@ span.postgresql {
 .portfolio .btn {
     font-size: 16px;
     padding: 10px 40px;
+    height: fit-content !important;
 }
 
 .portfolio .visit:hover {
@@ -598,6 +599,12 @@ span.postgresql {
 
 .sertifikat .myImg {
     cursor: zoom-in !important;
+}
+
+.sertifikat .myImg img {
+    width: 100%;
+    max-height: 160px;
+    object-fit: cover;
 }
 
 .sertifikat .title {
